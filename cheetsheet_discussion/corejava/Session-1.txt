@@ -1,0 +1,52 @@
+Java & Microservice course:
+-------------------------
+total session : 15 session 2hr 15min
+
+trainer profile
+https://www.linkedin.com/in/rajeevguptajavatrainer/
+
+sw setup:
+-----------
+Imp tools
+==========
+git 
+----
+https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.1/Git-2.50.0-64-bit.exe
+
+Note : create an account with github
+
+JDK 17.0.10
+----------
+https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.exe
+
+maven:
+---------
+https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
+
+STS 4.x 
+--------
+https://spring.io/tools
+https://cdn.spring.io/spring-tools/release/STS4/4.31.0.RELEASE/dist/e4.36/spring-tools-for-eclipse-4.31.0.RELEASE-e4.36.0-win32.win32.x86_64.zip
+
+
+
+study material:
+------------------
+https://drive.google.com/drive/folders/1eNBMxw2i-cVSUS7xHQ1ZhWoCS9ne-geH?usp=sharing
+
+Code repo:
+------------------
+https://github.com/rgupta00/C-JavaWithMsOracleEveningBatch01code
+
+
+Day-1
+-----------
+Session 1: Java Basics & Thinking in Objects
+    • What is Java, platform independence, JDK/JRE/JVM
+    • Primitive variables, type casting, Operators: arithmetic, relational, logical, bitwise
+final, constants, and var (Java 10)
+    • Control structures:
+        ◦ if-else, switch
+        ◦ Loops: while, do-while, for
+        ◦ break, continue, return
+    • 1D and 2D Arrays
