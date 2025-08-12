@@ -1,0 +1,192 @@
+Java & Microservice course:
+---------------------------------
+total session : 15 session 2hr 15min
+
+trainer profile
+https://www.linkedin.com/in/rajeevguptajavatrainer/
+
+sw setup:
+-----------
+Imp tools
+==========
+git 
+----
+https://github.com/git-for-windows/git/releases/download/v2.50.0.windows.1/Git-2.50.0-64-bit.exe
+
+Note : create an account with github
+
+JDK 17.0.10
+----------
+https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.exe
+
+maven:
+---------
+https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
+https://maven.apache.org/download.cgi
+
+STS 4.x 
+--------
+https://spring.io/tools
+https://cdn.spring.io/spring-tools/release/STS4/4.31.0.RELEASE/dist/e4.36/spring-tools-for-eclipse-4.31.0.RELEASE-e4.36.0-win32.win32.x86_64.zip
+
+
+
+study material:
+------------------
+https://drive.google.com/drive/folders/1eNBMxw2i-cVSUS7xHQ1ZhWoCS9ne-geH?usp=sharing
+
+Code repo:
+------------------
+https://github.com/rgupta00/C-JavaWithMsOracleEveningBatch01code
+
+
+Session-1
+-----------
+Session 1: Java Basics & Thinking in Objects
+    • What is Java, platform independence, JDK/JRE/JVM
+    • Primitive variables, type casting, Operators: arithmetic, relational, logical, bitwise
+final, constants, and var (Java 10)
+    • Control structures:
+        ◦ if-else, switch
+        ◦ Loops: while, do-while, for
+        ◦ break, continue, return
+    • 1D and 2D Arrays
+	
+	
+	
+	sw setup 
+	jdk 17, manve and eclipse sts
+	
+	workspace --> many project ---> packages ---> code
+												HelloWorld
+											
+									a way to orgainised the code
+									
+									src: source code
+									
+									
+		oracle.com
+		
+		com.oracle.training.session1 (good name)
+		
+		foo X
+		bar X
+		
+
+
+
+
+
+Sesssion-2
+-----------
+Java Object orinetation
+---------------------------
+
+basics fundamentals :-
+------------------------------
+class:
+object:
+instance varibale:
+static varible:
+constructors
+getter 
+setters
+
+
+How to created class, object, constructors,getter setter 
+
+- Create a class to hold the Account details
+	id name balance
+	
+how to achive encapsultaion
+
+how to achive abstraction?
+
+static method and data
+
+init block
+static init block
+
+
+
+
+
+relationship bw the objects
+-----------------------------
+
+What is object orientation?
+----------------------------
+	is study of the subject that talk about relationship bw the objects
+	
+Type of relationship between the object?
+----------------------------------------
+USE A 
+HAS A 
+IS A 
+
+loose coupling and high cohesions?
+---------------------------------
+	
+	Noun analaysis
+	
+	A passanger is moving from LN to RC using metro
+	 class			method      prop			class
+	
+		class Passanger{
+			
+		}
+		
+		class Metro{
+		}
+		
+		
+	
+	USE a : .....
+	 class Passanger {
+		public void travel(String s, String d, Metro metro){
+		}
+	 }
+	 
+	 class Metro{
+	 
+	 }
+	 
+	 trainer and marker
+	 
+	 trainer and lunch
+	 
+	 class Triner{
+		public void write(Marker m){
+		}
+		public void eat(Lunch lunch){
+		
+		}
+	 }
+	 
+	 
+	USE A
+	
+	
+	HAS A: association
+	-------------------
+	
+		Compostition
+		
+		Aggigation
+		
+		
+	
+	IS A
+	
+	
+
+how to create loose coupling and high cohesions
+
+method overloading
+
+inheritance type of inheritance
+
+abstraction : abstract class
+
+interface
+
