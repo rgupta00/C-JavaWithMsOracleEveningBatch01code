@@ -84,8 +84,16 @@ Java Object orinetation
 
 basics fundamentals :-
 ------------------------------
-class:
-object:
+class: template to create the objects, cookie cutter
+
+object: real actor that works 
+	identity: address of an object
+	
+	state: data ..instatance variables
+	
+	behaviour: methods
+	
+	
 instance varibale:
 static varible:
 constructors
@@ -113,16 +121,64 @@ static init block
 
 relationship bw the objects
 -----------------------------
+any 2 thing is this world 
+
+Type of relationship between the object?
+----------------------------------------
+
 
 What is object orientation?
 ----------------------------
 	is study of the subject that talk about relationship bw the objects
 	
-Type of relationship between the object?
-----------------------------------------
+	
 USE A 
 HAS A 
 IS A 
+
+USE A 
+--------
+Trainer teach with the Marker => use a 
+Passanger name raj moving from BTM to zoo  using Metro => use a 
+
+class Metro{
+}
+
+//syntexically vs symentically
+
+Wrong design:
+------------
+class Passanger{
+	private Metro metro=new Metro();
+	
+}
+Wrong design: "extends" used for inheritance*
+------------
+class Passanger extends Metro{
+	
+}
+
+right way:
+---------
+class Passanger{
+	public void travel(Metro metro){
+	}
+}
+
+Car c=new Car();
+
+Vehicle v=new Car();
+
+
+
+
+HAS A 
+-----
+Compostition
+
+aggigration
+
+
 
 loose coupling and high cohesions?
 ---------------------------------
@@ -178,15 +234,124 @@ loose coupling and high cohesions?
 	
 	IS A
 	
-	
 
 how to create loose coupling and high cohesions
 
-method overloading
 
-inheritance type of inheritance
 
-abstraction : abstract class
 
-interface
+
+
+
+
+
+Session-3
+----------
+
+relation bw objects
+	has a
+	use a 
+	
+	is a : aka inhertance relationship
+
+Inheritance
+Type of inheritance
+
+parameter passing from drived class to base class
+super()
+
+diamond problem
+
+polymorphism
+	method overloading
+	method overriding
+	
+abstract class in details
+
+interface in details
+
+how to achive run time polymorphism?
+
+Two way to achive abstraction 
+	abstract class
+	interface
+
+When to go for interface and when to go for abstract classes in java?
+
+
+interface A{
+	public static final int i=10; //u can never hv instance varible inside the interface
+								//no possiblity of ctr
+	A(){}
+}
+
+election promise
+
+
+interface Jumpable{
+	public abstract void jump();
+}
+
+class Monkey implements Jumpable{
+}
+class Monkey extends Jumpable{
+}
+
+java support multiple inhertance only via interface?
+-----------------------------------------------------
+final keyword in details
+	final method
+	final class
+	final variables
+	final method arguments
+	
+	
+final is something which can not be change
+
+	
+	
+	
+Session-4
+-----------	
+Concept of package and visibilty modifier
+Introduction to solid principle
+String class in java
+how it works, important methods
+Immutablity
+Inner class
+IO
+
+
+
+session-5
+-----------
+Exception handing *
+
+
+
+
+session-6
+--------
+Java collection api
+
+
+
+
+
+Session-7
+----------
+jdbc api to intract with the database
+
+java app --> data is lost as soon as close my system
+
+	store the data somewhere : mysql 
+
+-----------------------------------------------
+21 st aug
+------------------------
+
+
+
+
+
 
