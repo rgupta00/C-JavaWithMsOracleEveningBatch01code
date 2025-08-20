@@ -19,10 +19,10 @@ public class Ex5 {
 		//ARM automatic resouce manamgent
 		
 		
+		
 		Set<String> words = new TreeSet<>();
-		BufferedReader br = null;
-		try {
-			br = new BufferedReader(new FileReader(new File("demo.txt")));
+	
+		try (BufferedReader br=new BufferedReader(new FileReader(new File("demo.txt")))){
 			String line = null;
 			while ((line = br.readLine()) != null) {
 				String tokens[] = line.split(" ");
@@ -37,14 +37,12 @@ public class Ex5 {
 			System.out.println("some other issue");
 		} catch (Exception ex) {
 			System.out.println("ex");
-		} finally {
-			try {
-				br.close();
-			} catch (IOException e) {
-				System.out.println("clean up code");
-			}
-		}
-
+		} 
+		
+		
+		
+		
+		
 		// print the set
 		for (String word : words) {
 			System.out.println(word);
