@@ -297,9 +297,33 @@ Step 1: add dep in all projects
 
 
 
+@Configuration
+public class OpenAPIConfig {
+
+    @Bean
+    public OpenAPI productServiceAPI() {
+        return new OpenAPI()
+                .info(new Info().title("Product Service API Busycoder")
+                        .description("This is the REST API for Product Service")
+                        .version("v0.0.1")
+                        .license(new License().name("Apache 2.0")))
+                .externalDocs(new ExternalDocumentation()
+                        .description("You can refer to the Product Service Wiki Documentation")
+                        .url("https://product-service-dummy-url.com/docs"));
+    }
+}
 
 
+After starting your Spring Boot app:
+---------------------------------------
+Swagger UI URL
+ http://localhost:8080/swagger-ui/index.html
 
+OpenAPI JSON
+ http://localhost:8080/v3/api-docs
+
+OpenAPI YAML
+ http://localhost:8080/v3/api-docs.yaml
 
 
 10. caching
